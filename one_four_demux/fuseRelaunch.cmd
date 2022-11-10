@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/Acer/Documents/Anand S/one_four_demux/one_four_demux_isim_beh.exe" -prj "C:/Users/Acer/Documents/Anand S/one_four_demux/one_four_demux_beh.prj" "work.one_four_demux" "work.glbl" 

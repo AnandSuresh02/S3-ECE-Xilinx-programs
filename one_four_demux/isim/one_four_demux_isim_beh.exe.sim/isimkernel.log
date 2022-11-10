@@ -1,0 +1,10 @@
+Command line:
+   one_four_demux_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58666
+
+Mon Mar 07 12:10:32 2022
+
+
+ Elaboration Time: 0.03125 sec

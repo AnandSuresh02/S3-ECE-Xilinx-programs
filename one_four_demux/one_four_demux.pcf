@@ -1,0 +1,14 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Mar 07 12:12:48 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "y" LOCATE = SITE "P80" LEVEL 1;
+COMP "s0" LOCATE = SITE "P7" LEVEL 1;
+COMP "s1" LOCATE = SITE "P17" LEVEL 1;
+COMP "a" LOCATE = SITE "P15" LEVEL 1;
+COMP "b" LOCATE = SITE "P12" LEVEL 1;
+COMP "c" LOCATE = SITE "P11" LEVEL 1;
+COMP "d" LOCATE = SITE "P9" LEVEL 1;
+SCHEMATIC END;
+
