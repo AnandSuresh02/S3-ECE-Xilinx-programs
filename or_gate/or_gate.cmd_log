@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/Acer/Documents/Anand S/or_gate/or_gate.xst" -ofn "C:/Users/Acer/Documents/Anand S/or_gate/or_gate.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc or_gate.ucf -p xc6slx9-tqg144-2 "or_gate.ngc" or_gate.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o or_gate_map.ncd or_gate.ngd or_gate.pcf 
+par -w -intstyle ise -ol high -mt off or_gate_map.ncd or_gate.ncd or_gate.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml or_gate.twx or_gate.ncd -o or_gate.twr or_gate.pcf -ucf or_gate.ucf 
+bitgen -intstyle ise -f or_gate.ut or_gate.ncd 

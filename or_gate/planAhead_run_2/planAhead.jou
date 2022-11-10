@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Mar 07 12:03:00 2022
+# Process ID: 6712
+# Log file: C:/Users/Acer/Documents/Anand S/or_gate/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/Acer/Documents/Anand S/or_gate/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/Acer/Documents/Anand S/or_gate/pa.fromNetlist.tcl}
