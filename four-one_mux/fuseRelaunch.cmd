@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/Acer/Documents/Anand S/four-one_mux/four_one_mux_isim_beh.exe" -prj "C:/Users/Acer/Documents/Anand S/four-one_mux/four_one_mux_beh.prj" "work.four_one_mux" "work.glbl" 

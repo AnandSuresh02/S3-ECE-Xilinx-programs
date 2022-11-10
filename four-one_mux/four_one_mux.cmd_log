@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/Acer/Documents/Anand S/four-one_mux/four_one_mux.xst" -ofn "C:/Users/Acer/Documents/Anand S/four-one_mux/four_one_mux.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc four_one_mux.ucf -p xc6slx9-tqg144-2 "four_one_mux.ngc" four_one_mux.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o four_one_mux_map.ncd four_one_mux.ngd four_one_mux.pcf 
+par -w -intstyle ise -ol high -mt off four_one_mux_map.ncd four_one_mux.ncd four_one_mux.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml four_one_mux.twx four_one_mux.ncd -o four_one_mux.twr four_one_mux.pcf -ucf four_one_mux.ucf 
+bitgen -intstyle ise -f four_one_mux.ut four_one_mux.ncd 

@@ -1,0 +1,10 @@
+Command line:
+   four_one_mux_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58558
+
+Mon Mar 07 11:02:02 2022
+
+
+ Elaboration Time: 0.015625 sec
