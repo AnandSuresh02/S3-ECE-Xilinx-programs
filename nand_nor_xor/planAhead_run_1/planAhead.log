@@ -1,0 +1,70 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Mar 07 15:06:25 2022
+# Process ID: 9536
+# Log file: C:/Users/Acer/Documents/Anand S/nand_nor_xor/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Acer/Documents/Anand S/nand_nor_xor/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/Users/Acer/Documents/Anand S/nand_nor_xor/pa.fromNetlist.tcl}
+# create_project -name nand_nor_xor -dir "C:/Users/Acer/Documents/Anand S/nand_nor_xor/planAhead_run_1" -part xc6slx9tqg144-2
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Users/Acer/Documents/Anand S/nand_nor_xor/nand_nor_xor.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Users/Acer/Documents/Anand S/nand_nor_xor} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "nand_nor_xor.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/Acer/Documents/Anand S/nand_nor_xor/nand_nor_xor.ucf' to fileset 'constrs_1'
+# add_files [list {nand_nor_xor.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc6slx9tqg144-2
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design nand_nor_xor.ngc ...
+WARNING:NetListWriters:298 - No output is written to nand_nor_xor.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file nand_nor_xor.edif ...
+ngc2edif: Total memory usage is 4310016 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/nand_nor_xor.data/cache/nand_nor_xor_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/nand_nor_xor.data/cache/nand_nor_xor_ngc_zx.edif]
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockBuffers.xml
+Loading package pin functions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/tqg144/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [C:/Users/Acer/Documents/Anand S/nand_nor_xor/nand_nor_xor.ucf]
+Finished Parsing UCF File [C:/Users/Acer/Documents/Anand S/nand_nor_xor/nand_nor_xor.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: ceb4209d
+link_design: Time (s): elapsed = 00:00:07 . Memory (MB): peak = 596.629 ; gain = 168.273
+startgroup
+set_property package_pin P17 [get_ports a]
+endgroup
+startgroup
+set_property package_pin P7 [get_ports b]
+endgroup
+startgroup
+set_property package_pin P12 [get_ports c]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports d]
+endgroup
+startgroup
+set_property package_pin P9 [get_ports e]
+endgroup
+save_constraints

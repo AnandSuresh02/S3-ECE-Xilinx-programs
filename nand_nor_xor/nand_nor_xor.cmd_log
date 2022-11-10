@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/Acer/Documents/Anand S/nand_nor_xor/nand_nor_xor.xst" -ofn "C:/Users/Acer/Documents/Anand S/nand_nor_xor/nand_nor_xor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nand_nor_xor.ucf -p xc6slx9-tqg144-2 "nand_nor_xor.ngc" nand_nor_xor.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o nand_nor_xor_map.ncd nand_nor_xor.ngd nand_nor_xor.pcf 
+par -w -intstyle ise -ol high -mt off nand_nor_xor_map.ncd nand_nor_xor.ncd nand_nor_xor.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml nand_nor_xor.twx nand_nor_xor.ncd -o nand_nor_xor.twr nand_nor_xor.pcf -ucf nand_nor_xor.ucf 
+bitgen -intstyle ise -f nand_nor_xor.ut nand_nor_xor.ncd 
+xst -intstyle ise -ifn "C:/Users/Acer/Documents/Anand S/nand_nor_xor/nand_nor_xor.xst" -ofn "C:/Users/Acer/Documents/Anand S/nand_nor_xor/nand_nor_xor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nand_nor_xor.ucf -p xc6slx9-tqg144-2 "nand_nor_xor.ngc" nand_nor_xor.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o nand_nor_xor_map.ncd nand_nor_xor.ngd nand_nor_xor.pcf 
+par -w -intstyle ise -ol high -mt off nand_nor_xor_map.ncd nand_nor_xor.ncd nand_nor_xor.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml nand_nor_xor.twx nand_nor_xor.ncd -o nand_nor_xor.twr nand_nor_xor.pcf -ucf nand_nor_xor.ucf 
+bitgen -intstyle ise -f nand_nor_xor.ut nand_nor_xor.ncd 
