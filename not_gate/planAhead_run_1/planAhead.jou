@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Mar 07 15:01:16 2022
+# Process ID: 1560
+# Log file: C:/Users/Acer/Documents/Anand S/not_gate/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Acer/Documents/Anand S/not_gate/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/Acer/Documents/Anand S/not_gate/pa.fromNetlist.tcl}
+startgroup
+set_property package_pin P17 [get_ports a]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports b]
+endgroup
+save_constraints

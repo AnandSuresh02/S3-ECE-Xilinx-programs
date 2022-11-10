@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Mon Mar 07 15:02:22 2022
+
+drc -z not_gate.ncd not_gate.pcf
+
+DRC detected 0 errors and 0 warnings.
